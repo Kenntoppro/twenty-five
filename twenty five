@@ -1,0 +1,2 @@
+tir = int(input())
+print(tir // 1000 + (tir // 100) % 10 == (tir % 100) // 10 - tir % 10)
